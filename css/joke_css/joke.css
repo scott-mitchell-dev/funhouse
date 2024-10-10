@@ -1,0 +1,51 @@
+* { 
+	box-sizing: border-box;
+	}
+img {
+	max-width: 100%;
+	}
+body 
+    {
+        background-color: #ffffff;
+        /* don't use "display: flex;" here otherwise things don't work right */
+    }
+nav /* only one naviation bar for the jokes website */
+    {
+        display: flex;
+        align-items: center;
+        font-size: 1.75rem;
+        height: auto;
+        margin-bottom: 1rem;
+        margin-right: .75rem;
+    }
+.left, .right 
+    {
+        text-decoration: none;
+        color: #ff0000;
+        padding: .75rem;
+        
+    }
+.left /* offset menus rule! */
+    {
+        padding: 1rem;    
+    }
+.right /* offset menus rule! */
+    {
+        margin-left: auto;
+        padding-right: 2rem;
+    }
+.punch_line
+    {
+        /* simpler technique than using Flexbox for centering */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;   
+        max-width: 200%;
+        height: auto;     
+    }
+summary 
+    {
+        font-size: 1.5rem;
+        margin-left: 1rem; 
+    }

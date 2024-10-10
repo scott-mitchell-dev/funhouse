@@ -1,0 +1,22 @@
+* { 
+	box-sizing: border-box;
+	}
+img {
+	max-width: 100%;
+	}
+            .menu {
+            display: flex; 
+            align-items: flex-start;
+            width: 100%;
+            border: 0;
+        }
+        .menu img {
+            width: 25%;
+            height: 15%;
+        }
+       .go_right {
+            margin-left: auto;
+            border: 0; 
+        }
+  
+   

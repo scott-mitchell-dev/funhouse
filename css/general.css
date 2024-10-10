@@ -1,0 +1,98 @@
+  /* the following two style rules are best practices */
+* { 
+	box-sizing: border-box;
+	}
+img {
+	max-width: 100%;
+	}
+    .container { /* the whole page will be a flex container */ 
+        display: flex;
+        background-color: #f2f2f2;
+        font-family: sans-serif; /* Comic Sans wouldn't display on Android */
+        /* font-size: 1.25rem;
+        font-weight: 300; */
+        flex-direction: column;
+        margin: 1rem;
+        padding-bottom: 1rem;
+        /* justify-content: center; */
+        width: auto;
+        }
+    .container > *  {
+        flex: 1 1 auto; /* scale is required to be a child item */
+        }
+   div { 
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    a {
+        text-decoration: none;
+    }
+    ul {
+  display: inline-block;
+  list-style-type: circle;
+  margin-top: 0;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 2em;
+  padding-left: .5empx;
+}
+   .container2 {
+        display: inline;  }
+    }
+    .learn_more {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .learn_more img {
+        width: 5rem;
+        height: 7rem;
+    }
+    heading {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: red;
+    }
+
+hr {
+    width:100%;
+    text-align:left;
+    margin-left:0;
+}
+
+.top_nav {
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+ }
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+/* visited link */
+a:visited {
+  color: red;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+/* selected link */
+a:active {
+  color: red;
+}
+
+footer {
+    display: flex;
+    font-family: monospace;
+    font: .1rem;
+    font-weight: 20;
+    background-color: #000000;
+    color: #ffffff;
+    height: auto; 
+}
+     
+     

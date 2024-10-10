@@ -1,0 +1,19 @@
+* { 
+	box-sizing: border-box;
+	}
+img {
+	max-width: 100%;
+	}
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            }
+       .menu img {
+            width: 100%;
+            height: 50%;
+        }
+        .go_right {
+            margin-left: auto;
+        }
